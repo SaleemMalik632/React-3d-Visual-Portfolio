@@ -1,10 +1,12 @@
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Header />
+      <h1 style={{ marginTop: '1000px' }}>sa</h1>
+    </>
   );
 }
 

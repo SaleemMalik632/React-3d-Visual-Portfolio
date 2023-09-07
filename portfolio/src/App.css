@@ -62,6 +62,36 @@ body {
 }  
 
 
+/* for the about section  */
+.about-flex{
+  display: flex;
+}
+
+.about-catainer{
+  margin-left: 30px;
+}
+.about-catainer ul {
+  display: flex; 
+  list-style: none; 
+  padding: 0; 
+  margin-top: -35px;
+}
+.about-catainer li {
+  margin-right: 10px; 
+}
+/* Customize the list marker (dot) */
+.about-catainer li:not(:first-child)::before {
+  content: '\2022'; 
+  color: green; 
+  font-size: 1.7em; 
+  margin-right: 5px; 
+}
+.about-catainer ul li:first-child {
+  display: flex; 
+  list-style: none; 
+  padding: 0; 
+  margin-top: 10px;
+}
 
 
 

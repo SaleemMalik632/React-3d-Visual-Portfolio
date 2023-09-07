@@ -1,11 +1,13 @@
 import './App.css';
 import Header from './Components/Header';
+import  Followme from './Components/Followme';
 
 function App() {
   return (
     <>
       <Header />
-      <h1 style={{ marginTop: '1000px' }}>sa</h1>
+      {/* <Followme /> */}
+      
     </>
   );
 }

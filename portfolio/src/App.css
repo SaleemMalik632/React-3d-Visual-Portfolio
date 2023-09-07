@@ -1,9 +1,10 @@
 body {
-  background-color: #111a28;
   color: #fff;
+  background-color: #111a28;
 }
+
 .main-header {
-  position: fixed;
+  /* position:relative; */
   top: 0;
   left: 0;
   width: 100%;
@@ -12,30 +13,53 @@ body {
   color: #fff;
   z-index: 1000;
 }
+
 .icon {
   display: none;
 }
+
 .main-head-block {
   display: flex;
 }
+
 .nav-elements ul {
   display: flex;
   list-style: none;
 }
+
 .nav-elements {
   margin-left: 20%;
 }
+
 .nav-elements ul li {
   margin-right: 50px;
 }
+
 .nav-elements ul li a {
   text-decoration: none;
   color: #fff;
 }
+
 .logo {
   max-height: 70px;
   margin-left: 220px;
 }
+
+/* this is the code for the media icons */
+.media-class ul {
+  list-style: none;
+} 
+.media-class li {
+  margin-bottom: 10px;
+}
+.malik{
+  border:  3px solid green;
+  border-radius: 45px;
+  transition: all 0.5 ease-in-out;
+}
+.malik:hover{
+  border:  3px solid rgb(0, 0, 128);
+}  
 
 
 
@@ -46,11 +70,12 @@ body {
 
 /* to make the responsive  */
 @media (max-width: 600px) {
-  
+
   .logo {
     max-height: 70px;
     margin-left: 10px;
   }
+
   .icon {
     display: block;
     cursor: pointer;

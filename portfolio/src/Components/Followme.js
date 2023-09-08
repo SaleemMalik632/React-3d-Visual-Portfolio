@@ -18,6 +18,9 @@ function Followme() {
                     <li>
                         <a href='#' rel='noopener noreferrer'><FaTwitter size={30}  className='malik'/></a>
                     </li>
+                    <li>
+                        <a href='#' rel='noopener noreferrer'><FaTwitter size={30}  className='malik'/></a>
+                    </li>
                 </ul>
             </div>
         </>

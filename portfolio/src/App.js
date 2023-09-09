@@ -5,6 +5,7 @@ import Aboutm from './Components/Aboutm';
 import Mainabout from './Components/Mainabout';
 import Aboutme from './Components/Aboutme';
 import Myskills from './Components/Myskils'
+import Skillcard from './Components/Skillcard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Mainabout />
       <Aboutme />
       <Myskills />
+      <Skillcard/>
 
     </>
   );

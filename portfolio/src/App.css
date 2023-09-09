@@ -123,7 +123,12 @@ body {
   margin-left: 200px;
   max-width: 520px;
 }
-
+.skill-card{
+  background-color:#1d293a;
+  border-radius: 10px;
+  margin: 100px;
+  
+}
 
 
 

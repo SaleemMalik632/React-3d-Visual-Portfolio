@@ -64,7 +64,7 @@ function Webskills() {
             <Grid container spacing={2} >
                 {
                     cartDataArray.map((carddata, index) => (
-                        <Grid item xs={12} md={6} key={index}>
+                        <Grid item xs={12} md={6} key={index}> 
                             <Skillcard CartData={carddata} />
                         </Grid>
                     ))

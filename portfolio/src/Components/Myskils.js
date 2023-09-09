@@ -3,7 +3,9 @@ import { ToggleButtonGroup } from '@mui/material';
 import MuiToggleButton from '@mui/material/ToggleButton';
 import { styled } from '@mui/material/styles';
 import Webskills from './Webskills';
-import Other from './Other'
+import Other from './Other';
+import Pro from './Programming';
+import Tools from './Tools'
 
 const ToggleButtonExample = () => {
     const [selected, setSelected] = useState('button1');
@@ -46,8 +48,8 @@ const ToggleButtonExample = () => {
                 <div className='Skill-Data'>
                     {selected === 'Web' && <Webskills />}
                     {selected === 'others' && <Other />}
-                    {selected === 'Programming' && 'Programming page'}
-                    {selected === 'Tools' && 'Tools page'}
+                    {selected === 'Programming' && <Pro />}
+                    {selected === 'Tools' && <Tools />}
                 </div>
             </div>
         </>

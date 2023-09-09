@@ -48,58 +48,80 @@ body {
 /* this is the code for the media icons */
 .media-class ul {
   list-style: none;
-} 
+}
+
 .media-class li {
   margin-bottom: 10px;
 }
-.malik{
-  border:  3px solid green;
+
+.malik {
+  border: 3px solid green;
   border-radius: 45px;
   transition: all 0.5 ease-in-out;
 }
-.malik:hover{
-  border:  3px solid rgb(0, 0, 128);
-}  
+
+.malik:hover {
+  border: 3px solid rgb(0, 0, 128);
+}
 
 
 /* for the about section  */
-.about-flex{
+.about-flex {
   display: flex;
 }
 
 /*  */
 .about-catainer ul {
-  display: flex; 
-  list-style: none; 
-  padding: 0; 
+  display: flex;
+  list-style: none;
+  padding: 0;
   margin-top: -35px;
 }
+
 .about-catainer li {
-  margin-right: 10px; 
+  margin-right: 10px;
 }
+
 /* Customize the list marker (dot) */
 .about-catainer li:not(:first-child)::before {
-  content: '\2022'; 
-  color: green; 
-  font-size: 1.7em; 
-  margin-right: 5px; 
+  content: '\2022';
+  color: green;
+  font-size: 1.7em;
+  margin-right: 5px;
 }
+
 .about-catainer ul li:first-child {
-  display: flex; 
-  list-style: none; 
-  padding: 0; 
+  display: flex;
+  list-style: none;
+  padding: 0;
   margin-top: 10px;
 }
 
-.image{
+.image {
   width: 300px;
   height: 300px;
   margin-top: 10px;
   border-radius: 300px;
 }
 
-.about-catainer{
+.about-catainer {
   margin-left: -60px;
+}
+
+.About-Me-cantainer {
+  margin: 200px;
+  margin-top: 300px;
+}
+
+.profile {
+  width: 400px;
+  height: 400px;
+  border-radius: 300px;
+  margin-left: 50px;
+}
+.skill{
+  margin-left: 200px;
+  max-width: 520px;
 }
 
 
@@ -144,16 +166,36 @@ body {
 
   .media-class ul {
     display: flex;
-  } 
-  .media-class li {
-    margin-left : 30px;
   }
-  .about-catainer{
+
+  .media-class li {
     margin-left: 30px;
   }
-  .image{
+
+  .about-catainer {
+    margin-left: 30px;
+  }
+
+  .image {
     margin-left: 50px;
   }
+
+  .About-Me-cantainer {
+    margin: 25px;
+    margin-top: 100px;
+  }
+
+  .profile {
+    width: 382px;
+    height: 380px;
+    border-radius: 300px;
+    margin-left: -5px;
+    margin-right: 33px;
+}
+.skill{
+  margin-left: 0px;
+  max-width: 520px;
+}
 
 
 

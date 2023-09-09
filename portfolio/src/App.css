@@ -126,8 +126,11 @@ body {
 .skill-card{
   background-color:#1d293a;
   border-radius: 10px;
-  margin: 100px;
-  
+}
+.Skill-Data{
+  max-width: 1000px;
+  margin-left: 200px;
+  margin-top: 30px;
 }
 
 
@@ -200,6 +203,9 @@ body {
 .skill{
   margin-left: 0px;
   max-width: 520px;
+}
+.Skill-Data{
+  margin-left: 10px;
 }
 
 

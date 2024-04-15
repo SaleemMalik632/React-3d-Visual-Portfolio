@@ -1,21 +1,24 @@
-import './App.css';
-import Header from './Components/Header';
-import Followme from './Components/Followme';
-import Aboutm from './Components/Aboutm';
-import Mainabout from './Components/Mainabout';
-import Aboutme from './Components/Aboutme';
-import Myskills from './Components/Myskils'
-import Skillcard from './Components/Skillcard';
-import Webskills from './Components/Webskills';
+// import './App.css';
+import { BrowserRouter } from "react-router-dom";
+import { Header, Navbar, Hero, Education } from './Components';
+import Logo from './assets/hero.jpg'
+
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Mainabout />
-      <Aboutme />
-      <Myskills />
+      <BrowserRouter>
+        <div className='relative z-0 bg-primary'>
+          <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+            <Navbar />
+            <Hero />
+          </div>
+          <Header />
+          <Education /> 
+
+        </div>
+      </BrowserRouter>
     </>
   );
 }

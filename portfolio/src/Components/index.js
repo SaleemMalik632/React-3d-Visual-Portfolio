@@ -3,7 +3,7 @@ import Hero from './Hero';
 import Navbar from './Navbar';
 // import Tech from './Tech';
 // import Experience from './Experience';
-// import Project from './Project';
+import Project from './Project';
 // import Contact from './Contact';
 // import Content from './Content';
 // import Profile from './Profile';
@@ -19,7 +19,7 @@ export {
   // Content,
   // Tech,
   // Experience,
-  // Project,
+  Project,
   Education,
   // Contact,
   // EarthCanvas, 

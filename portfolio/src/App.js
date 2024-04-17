@@ -1,6 +1,6 @@
 // import './App.css';
 import { BrowserRouter } from "react-router-dom";
-import { Header, Navbar, Hero, Education } from './Components';
+import { Header, Navbar, Hero, Education,Project } from './Components';
 import Logo from './assets/hero.jpg'
 
 
@@ -16,6 +16,7 @@ function App() {
           </div>
           <Header />
           <Education /> 
+          <Project />
 
         </div>
       </BrowserRouter>

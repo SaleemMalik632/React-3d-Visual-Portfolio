@@ -9,6 +9,8 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLinkAlt } from "react-icons/bi";
 import { SaleemMalik } from "../assets";
 import "./Hero.css";
+import Tilt from "react-parallax-tilt";
+
 
 const Hero = () => {
   return (
@@ -27,7 +29,7 @@ const Hero = () => {
             <h2 className="text-3xl text-green-400">
               <Typewriter
                 options={{
-                  strings: ['Software Developer', "Tech Enthusiast", "Web Developer", "MERN Stack Developer", "React Developer"], 
+                  strings: ['Software Developer', "Tech Enthusiast", "Web Developer", "MERN Stack Developer", "React Developer"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -57,16 +59,27 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="imgcontainer1 absolute violet-gradient">
-          <img src={SaleemMalik} alt="" className="object-contain" />
-
+        <div className="imgcontainer1 violet-gradient"> 
+          <div>
+            <Tilt
+              className="tilt-img"
+              tiltMaxAngleX={35}
+              tiltMaxAngleY={35}
+              perspective={900}
+              scale={1.1}
+              transitionSpeed={2000}
+              gyroscope={true}
+            >
+              <img src={SaleemMalik} alt="" className="object-contain" />
+            </Tilt>
+          </div>
         </div>
       </div>
 
 
       <ComputersCanvas />
 
-      <div  className='absolute xs:bottom-10 bottom-32 w-10 flex justify-end items-center'> 
+      <div className='absolute xs:bottom-10 bottom-32 w-10 flex justify-end items-center'>
         <a href='#education' download={SaleemMalik}>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

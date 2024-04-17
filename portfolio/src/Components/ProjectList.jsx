@@ -1,5 +1,5 @@
 import React from 'react';
-import "./ProjectList.scss";
+import "./ProjectList.css";
 
 export default function ProjectList({title,active,setSelected,id}) {
   

@@ -51,12 +51,16 @@ import snl from "./project/snl.jpeg";
 import ResumePdf from "./Saleem Malik  0323-9954754.pdf";
 import SaleemMalik from './saleemmalik.jpg'
 import Hero from './hero.jpg'
+import UETLogo  from './UET Logo.png'
+import myschool from './myschool.jpg'
 
 export {
   ResumePdf,
   SaleemMalik,
   Hero,
   logo,
+  UETLogo,
+  myschool,
   backend,
   creator,
   mobile,
